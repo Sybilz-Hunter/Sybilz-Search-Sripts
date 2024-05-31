@@ -63,7 +63,7 @@ function getWeekNumber(date) {
 
 function processAddress(address) {
   return new Promise((resolve, reject) => {
-    const prefix = address.slice(2, 6).toLowerCase(); // The first three letters after '0x'
+    const prefix = address.slice(2, 6).toLowerCase(); // The first four letters after '0x'
     const inputFilePath = path.join(__dirname, 'fullDatabase', `${prefix}.csv`);
 
     if (!fs.existsSync(inputFilePath)) {
