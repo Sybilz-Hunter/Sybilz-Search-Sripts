@@ -20,3 +20,5 @@ Get all transfers from the first10 transactions of each addresses and gives addr
 **megaFilter.js**
 
 Return all addresses that matches the filter settings
+
+You can contact me at sybilz.hunter@gmail.com
